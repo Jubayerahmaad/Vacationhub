@@ -43,7 +43,18 @@ a{
 .secoundery-text{
     color: var(--yollow);
 }
-
+.text-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--blacktext);
+}
+.sub-title{
+    font-size: 16px;
+    color: var(--primarycolor);
+    font-weight: 700;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
 /* Navbar Css  */
 
 header{
@@ -117,7 +128,7 @@ header{
     padding: 82px 0px;
 }
 .hero-content h1{
-    width: 570px;
+    max-width: 570px;
     font-size: 64px;
     font-weight: 900;
     line-height: 120%;
@@ -133,7 +144,7 @@ header{
     z-index: -1;
 }
 .hero-content p{
-    width: 469px;
+    max-width: 469px;
     font-size: 24px;
     font-weight: 400;
     padding: 32px 0px;
@@ -143,11 +154,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 470px;
+    max-width: 470px;
     height: 80px;
     box-shadow: var(--box-shadow);
     border-radius: 58px;
     padding: 0px 15px;
+    gap: 20px;
 
 }
 .search-input{
@@ -160,6 +172,8 @@ header{
     width: 1px;
     height: 25px;
     display: inline-block;
+    color: var(--graytext);
+    opacity: 0.2;
 }
 .select-box label{
     font-size: 12px;
@@ -190,5 +204,44 @@ header{
     border-radius: 50%;
     width: 48px;
     height: 48px;
-    
+    cursor: pointer;
+}
+/* Hero section css end  */
+
+/* About section css start */
+
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-contet {
+    padding-left: 118px;
+}
+
+.about-desc{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--graytext);
+    max-width: 442px;
+    margin-top: 24px;
+    line-height: 160%;
+}
+.about-counter{
+    display: flex;
+}
+.count-item {
+    max-width: 100px;
+    margin-top: 24px;
+}
+.count{
+    font-size: 40px;
+    font-weight: 700;
+    display: block;
+    color: var(--primarycolor);
+}
+.count-title{
+    font-size: 16px;
+    color: var(--graytext);
+    font-weight: 400;
 }
