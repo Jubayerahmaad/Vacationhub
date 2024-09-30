@@ -209,7 +209,9 @@ header{
 /* Hero section css end  */
 
 /* About section css start */
-
+.about-section{
+    padding: 60px 0px;
+}
 .about-wrapper{
     display: flex;
     justify-content: space-between;
@@ -245,3 +247,113 @@ header{
     color: var(--graytext);
     font-weight: 400;
 }
+/* Tour place css  */
+
+.tour-section{
+    padding: 60px 0px;
+}
+
+.tour-places{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.tour-place-item{
+    margin: 76px 0px;
+    box-shadow: var(--box-shadow);
+    border-radius: 16px;
+}
+.tour-title .text-title{
+    max-width: 591px;
+}
+
+.tour-content{
+    padding: 20px 24px 30px 24px;
+}
+.tour-content h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 132%;
+    color: var(--blacktext);
+}
+.tour-content p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 8px 0px;
+}
+.place-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0px;
+}
+.place-footer span.price {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 132%;
+    color: var(--primarycolor);
+}
+.place-footer span{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 132%;
+    color: var(--graytext);
+}
+/* tour section css end  */
+
+/* testimonials css */
+.testimonial-section{
+    padding: 60px 0px;
+}
+
+.testimonial-title{
+    text-align: center;
+}
+.testimonial-title .text-title{
+    max-width: 591px;
+    margin: 0 auto;
+}
+.testimonials{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 80px 0px ;
+}
+.client-feedback{
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    padding: 42px 40px;
+    position: relative;
+}
+.client-feedback::after{
+    content: '';
+    position: absolute;
+    background-image: url(../icon/quotation.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    top: -6%;
+    right: 24px;
+}
+.client-feedback h4{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 12px;
+    color: var(--blacktext);
+}
+.client-feedback span{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--blacktext);
+    display: block;
+    margin: 4px 0px;
+}
+.client-feedback p{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--blacktext);
+    line-height: 133%;
+    margin-top: 12px;
+}
+/* testimonial css end */
