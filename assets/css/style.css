@@ -234,6 +234,7 @@ header{
 }
 .about-counter{
     display: flex;
+    justify-content: space-between;
 }
 .count-item {
     max-width: 100px;
