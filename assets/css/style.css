@@ -458,3 +458,69 @@ header{
 
 /* Tour section end */
 
+.footer-section{
+    padding: 120px 0px;
+    background-color: var(--whitetext);
+}
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-brand p{
+    max-width: 200px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--blacktext);
+    margin: 18px 0px;
+}
+.footer-brand ul li {
+    display: inline;
+    margin-right: 12px;
+}
+.footer-manu ul li {
+    margin: 18px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--blacktext);
+}
+.footer-manu ul li a{
+    color: var(--blacktext);
+}
+.footer-manu h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--blacktext);
+}
+.footer-newslatter h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--blacktext);
+}
+.footer-newslatter p{
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 207px;
+    line-height: 140%;
+    margin: 18px 0px;
+    color: var(--blacktext);
+}
+.footer-newslatter input{
+    padding: 18px 19px 16px 19px;
+    width: 100%;
+    box-shadow: var(--box-shadow);
+    background-color: var(--whitetext);
+    border: none;
+    border-radius: 55px;
+    outline: none;
+}
+.footer-newslatter form {
+    position: relative;
+}
+.footer-newslatter button{
+    position: absolute;
+    top: 16%;
+    right: 3%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
