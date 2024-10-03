@@ -257,24 +257,21 @@ header{
     padding: 60px 0px;
 }
 
-.tour-places{
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-}
-
 .tour-place-item{
     margin: 76px 0px;
     box-shadow: var(--box-shadow);
     border-radius: 16px;
     background-color: var(--whitetext);
 }
+.tour-place-img img{
+    width: 100%;
+}
 .tour-title .text-title{
     max-width: 591px;
 }
 
 .tour-content{
-    padding: 20px 24px 30px 24px;
+    padding: 20px 24px 15px 24px;
 }
 .tour-content h3{
     font-size: 20px;
@@ -524,4 +521,31 @@ header{
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+/* Footer Css End  */
+
+/* Over Right Css */
+
+.swiper-button-prev {
+    left: unset;
+    right: 10%;
+    top: 10%;
+}
+.swiper-button-next {
+    right: 5%;
+    top: 10%;
+    color: var(--PrimeryColor);
+}
+.swiper-button-prev , .swiper-button-prev {
+    color: var(--PrimeryColor);
+}
+.swiper-button-prev span, .swiper-button-next span{
+    color: var(--PrimeryColor);
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 16px;
+    background-color: #e61c5c13;
+    padding: 15px 19px;
+    border-radius: 30px;
+    color: var(--primarycolor);
 }

@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
 
+    <!-- slider css link  -->
+     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
     <!-- Own Css link  -->
      <link rel="stylesheet" href="assets/css/style.css">
 
@@ -156,14 +159,14 @@
     <!-- Tour Place Section  -->
 
     <section class="tour-place-section">
-        <div class="container">
+        <div class="container swiper myswiper">
             <div class="tour-title">
                 <h6 class="sub-title">Tour Packages</h6>
                 <h2 class="text-title">The amazing places around <span class="primary-text">the world</span></h2>
             </div>
 
-            <div class="tour-places">
-                <div class="tour-place-item">
+            <div class="tour-places swiper-wrapper">
+                <div class="tour-place-item swiper-slide">
                     <div class="tour-place-img">
                         <img src="assets/image/place-1.png" alt="">
                     </div>
@@ -180,7 +183,41 @@
                     </div> <!-- /.Tour content -->
                 </div> <!-- /.Tour item -->
     
-                <div class="tour-place-item">
+                <div class="tour-place-item swiper-slide">
+                    <div class="tour-place-img">
+                        <img src="assets/image/place-3.png" alt="">
+                    </div>
+    
+                    <div class="tour-content">
+                        <h3>History is not about the past but a map of the past</h3>
+                        <p>Beijing, China</p>
+                        <img src="assets/icon/Start.svg" alt="">
+    
+                        <div class="place-footer">
+                            <span class="price">$450</span>
+                            <span>10 days tour</span>
+                        </div> <!-- ./ Place footer-->
+                    </div> <!-- /.Tour content -->
+                </div> <!-- /.Tour item -->
+    
+                <div class="tour-place-item swiper-slide">
+                    <div class="tour-place-img">
+                        <img src="assets/image/place-2.png" alt="">
+                    </div>
+    
+                    <div class="tour-content">
+                        <h3>The unique character as a symbol of taste and ostentation</h3>
+                        <p>Prague, Czechia</p>
+                        <img src="assets/icon/Start.svg" alt="">
+    
+                        <div class="place-footer">
+                            <span class="price">$200</span>
+                            <span>10 days tour</span>
+                        </div> <!-- ./ Place footer-->
+                    </div> <!-- /.Tour content -->
+                </div> <!-- /.Tour item -->
+
+                <div class="tour-place-item swiper-slide">
                     <div class="tour-place-img">
                         <img src="assets/image/place-1.png" alt="">
                     </div>
@@ -196,14 +233,14 @@
                         </div> <!-- ./ Place footer-->
                     </div> <!-- /.Tour content -->
                 </div> <!-- /.Tour item -->
-    
-                <div class="tour-place-item">
+
+                <div class="tour-place-item swiper-slide">
                     <div class="tour-place-img">
                         <img src="assets/image/place-1.png" alt="">
                     </div>
     
                     <div class="tour-content">
-                        <h3>Fall in love among the winding streets and snow-covered</h3>
+                        <h3>The unique character as a symbol of taste and ostentation</h3>
                         <p>Prague, Czechia</p>
                         <img src="assets/icon/Start.svg" alt="">
     
@@ -214,6 +251,8 @@
                     </div> <!-- /.Tour content -->
                 </div> <!-- /.Tour item -->
             </div>
+            <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
         </div>
     </section>
     <!-- Tour place section end  -->
@@ -383,6 +422,9 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+    <!-- Slider js link -->
+     <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!-- Own Js link -->
      <script src="assets/js/app.js"></script>
