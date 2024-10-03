@@ -317,9 +317,6 @@ header{
     margin: 0 auto;
 }
 .testimonials{
-    display: flex;
-    justify-content: space-between;
-    gap: 32px;
     margin: 80px 0px ;
 }
 .client-feedback{
@@ -359,6 +356,16 @@ header{
     color: var(--blacktext);
     line-height: 133%;
     margin-top: 12px;
+}
+.nav-next-btn {
+    position: absolute;
+    top: 62%;
+    right: 0%;
+}
+.nav-prev-btn {
+    position: absolute;
+    top: 62%;
+    left: 0%;
 }
 /* testimonial css end */
 .tour-section{
@@ -526,23 +533,39 @@ header{
 
 /* Over Right Css */
 
-.swiper-button-prev {
+.tour-place-section .swiper-button-prev {
     left: unset;
     right: 10%;
     top: 10%;
 }
-.swiper-button-next {
+.tour-place-section .swiper-button-next {
     right: 5%;
     top: 10%;
     color: var(--PrimeryColor);
 }
-.swiper-button-prev , .swiper-button-prev {
+.tour-place-section .swiper-button-prev , .tour-place-section .swiper-button-prev {
     color: var(--PrimeryColor);
 }
-.swiper-button-prev span, .swiper-button-next span{
+.tour-place-section .swiper-button-prev span, .tour-place-section .swiper-button-next span{
     color: var(--PrimeryColor);
 }
-.swiper-button-next:after, .swiper-button-prev:after {
+.tour-place-section .swiper-button-next:after, .tour-place-section .swiper-button-prev:after {
+    font-size: 16px;
+    background-color: #e61c5c13;
+    padding: 15px 19px;
+    border-radius: 30px;
+    color: var(--primarycolor);
+}
+
+/* testimonial section overright */
+
+.testimonial-section .swiper-button-prev , .testimonial-section  .swiper-button-prev {
+    color: var(--PrimeryColor);
+}
+.testimonial-section  .swiper-button-prev span, .testimonial-section  .swiper-button-next span{
+    color: var(--PrimeryColor);
+}
+.testimonial-section  .swiper-button-next:after, .testimonial-section  .swiper-button-prev:after {
     font-size: 16px;
     background-color: #e61c5c13;
     padding: 15px 19px;
