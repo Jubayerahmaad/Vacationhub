@@ -44,16 +44,30 @@
     }
     .hero-content h1{
         font-size: 50px;
-        max-width: 470px;
     }
     .hero-content p{
-        font-size: 20px;
+        font-size: 22px;
     }
     .title-shape img {
         max-width: 100%;
     }
     .hero-image img {
-        max-width: 300px;
+        max-width: 270px;
+        margin: 0 auto;
+    }
+    .hero-search{
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        border-radius: 5px;
+        align-items: end;
+    }
+    .search-input{
+        width: 100%;
+    }
+    .search-devider{
+        display: none;
     }
 
     /* about section */
@@ -64,7 +78,7 @@
         padding-left: 0px;
     }
     .about-img img{
-        max-width: 300px;
+        max-width: 270px;
         margin: 0 auto;
     }
     .about-counter{
@@ -95,15 +109,15 @@
     }
     /* Tour section */
 
+    section.tour-section{
+        padding: 40px 0px 80px 0px;
+    }
     .tour-section .tour-title {
         margin-bottom: 25px;
     }
     .tour-items {
         flex-wrap: wrap;
-        row-gap: 20px;
-    }
-    .tour-item {
-        width: 50%;
+        row-gap: 10px;
     }
     .tour-item:first-child,
     .tour-item:last-child{

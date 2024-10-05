@@ -160,7 +160,7 @@ header{
     align-items: center;
     justify-content: space-between;
     max-width: 470px;
-    height: 80px;
+    min-height: 80px;
     box-shadow: var(--box-shadow);
     border-radius: 58px;
     padding: 0px 15px;
@@ -170,7 +170,6 @@ header{
 }
 .search-input{
     display: flex;
-    align-items: center;
     gap: 13px;
 }
 .search-devider{
@@ -193,6 +192,8 @@ header{
     border: none;
     font-size: 12px;
     font-weight: 700;
+    color: var(--blacktext);
+    display: block;
 }
 .select-box label::after{
     content: '';
@@ -377,7 +378,6 @@ header{
 .tour-section .tour-title{
     margin-bottom: -20px;
 }
-
 .tour-section .text-title{
     max-width: 676px;
     margin:  0 auto;
@@ -405,7 +405,7 @@ header{
 .tour-items{
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
 }
 .tour-item{
     padding: 7px 9px 25px 9px;
@@ -415,8 +415,8 @@ header{
     border: 1px solid transparent;
     transition: all 0.2s;
 }
-.tour-item:{
-    border-color: var(--blacktext);
+.tour-item:hover{
+    border-color: #000;
 }
 .tour-item img{
     max-width: 100%;
