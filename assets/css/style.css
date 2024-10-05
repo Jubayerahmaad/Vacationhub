@@ -71,6 +71,9 @@ header{
 .header-logo img{
     width: 142px;
 }
+#toggle-btn{
+    display: none;
+}
 .nav-bar{
     flex-grow: 1;
 }
@@ -409,6 +412,11 @@ header{
     box-shadow: var(--box-shadow);
     border-radius: 16px;
     background-color: var(--whitetext);
+    border: 1px solid transparent;
+    transition: all 0.2s;
+}
+.tour-item:{
+    border-color: var(--blacktext);
 }
 .tour-item img{
     max-width: 100%;
@@ -446,8 +454,7 @@ header{
 .tour-item:nth-child(2) h3,
 .tour-item:nth-child(3) h3{
     font-size: 14px;
-    font-weight: 700;
-    
+    font-weight: 700;  
 }
 .tour-item:nth-child(2) .price,
 .tour-item:nth-child(3) .price{
