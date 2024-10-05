@@ -83,21 +83,23 @@
     }
     .about-counter{
         flex-wrap: wrap;
+        row-gap: 10px;
     }
     .count-item {
        width: 50%;
+       text-align: center;
     }
     
     /* tour place section */
     .tour-place-section .swiper-button-next {
-        right: 5%;
-        top: 13%;
+        right: 11%;
+        top: 21%;
         color: var(--PrimeryColor);
     }
     .tour-place-section .swiper-button-prev {
         left: unset;
-        right: 15%;
-        top: 13%;
+        right: 25%;
+        top: 21%;
     }
     .tour-place-section{
         padding: 40px 0px;
@@ -118,6 +120,9 @@
     .tour-items {
         flex-wrap: wrap;
         row-gap: 10px;
+    }
+    .tour-item{
+        width: 50%;
     }
     .tour-item:first-child,
     .tour-item:last-child{
